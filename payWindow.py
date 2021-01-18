@@ -35,7 +35,7 @@ class payWindowClass:
         try:
             amount = int(self.money.get()) #HUSK AT VALIDERE INPUT!
         except:
-            messagebox.showerror(title="Beløb fejl!", message="Prøv igen.\nKun hele tal!")
+            messagebox.showerror(parent=self.payWindow , title="Beløb fejl!", message="Prøv igen.\nKun hele tal!")
             return
 
         self.master.total+=amount
