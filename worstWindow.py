@@ -9,5 +9,5 @@ class worstWindowClass:
         self.worstWindow.title("Bottom 3")
         self.worstWindow.geometry("200x200")
 
-        Label(self.worstWindow, text="De værste betalere")
-        Label.pack()
+        Label(self.worstWindow, text="De værste betalere").pack()
+
