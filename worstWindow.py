@@ -1,6 +1,5 @@
 # importing tkinter module
 from tkinter import *
-from tkinter.ttk import *
 
 class worstWindowClass:
     def __init__(self, master):

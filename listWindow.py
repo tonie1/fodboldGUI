@@ -1,7 +1,6 @@
 # importing tkinter module
 from tkinter import *
-from tkinter.ttk import *
-from PIL import ImageTk,Image
+from PIL import ImageTk,Image #image stuff - install package: Pillow
 
 
 class listWindowClass:

@@ -1,6 +1,6 @@
 # importing tkinter module
 from tkinter import *
-from tkinter.ttk import *
+from tkinter.ttk import * #progressbar
 
 from listWindow import listWindowClass
 from payWindow import payWindowClass
