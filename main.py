@@ -20,7 +20,7 @@ class mainWindow:
         self.root = Tk()
 
         #load filen:
-        self.filename = './assets/betalinger.pk'
+        self.filename = 'betalinger.pk'
         self.fodboldtur = {}
         try: #FILEN FINDES :)
             infile = open(self.filename, 'rb')
